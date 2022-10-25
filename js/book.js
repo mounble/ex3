@@ -15,14 +15,14 @@ let allPages = document.querySelectorAll('.one-page')
 function init() {
     
     for(let index = 0;index < pages.length;index++){
-        pages[index].style.backgroundImage = "url('../imgs/pic"+ [index + 1] + ".png')"
+        pages[index].style.backgroundImage = "url('imgs/pic"+ [index + 1] + ".png')"
         pages[index].style.zIndex = PAGECOUNT - index - 1
     }
     // cover[1]是尾页，优先级最低
     
     cover[0].style.zIndex = PAGECOUNT + 1
     cover[1].style.zIndex = 0
-    cover[1].style.backgroundImage = "url('../imgs/5.png')"
+    cover[1].style.backgroundImage = "url('imgs/5.png')"
     //默认页面为封面，左按钮无效
     btn[0].style.backgroundColor = "dimgrey"
     btn[0].style.color = "darkgrey"
