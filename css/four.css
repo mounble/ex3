@@ -1,0 +1,32 @@
+.main{
+    position: relative;
+    left:0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    min-width:640px;
+    height: 100%;
+    background-color: orange;
+    background-image: url(../imgs/bg2.png);
+    background-size: cover;
+}
+#option{
+    width: 450px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+#option > img{
+    position: absolute;
+    width: 400px;
+    height: 350px;
+}
+.right{
+    width: 35px;
+    height: 80px;
+    margin-left: 550px;
+    margin-top: 10px;
+}
+/* .right {
+    background-image: url(../imgs//right1.png);
+} */
